@@ -1,23 +1,18 @@
-@font-face {
-  font-family: PlayFair Display;
-  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet');
-}
-
-@font-face {
-  font-family: Ubuntu;
-  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap");
-}
-
 body {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 150px;
   padding-right: 150px;
+  background-color: white;
 }
 
 a {
   text-decoration: none;
   color: #666666;
+}
+
+.hover-effect a:hover {
+  color: blue;
 }
 
 .nav-body {
@@ -31,6 +26,7 @@ h2 {
   color: rgb(98, 98, 98);
   line-height: 1.2;
   font-weight: 400;
+  padding-bottom: 38px;
 }
 
 h3 {
@@ -40,6 +36,7 @@ h3 {
   text-transform: uppercase;
   line-height: 1.2;
   font-weight: lighter;
+  padding-bottom: 28px;
 }
 
 p {
@@ -48,6 +45,10 @@ p {
   color: rgb(98, 98, 98);
   line-height: 1.714;
   font-weight: 400;
+}
+
+img {
+  padding-bottom: 31px;
 }
 
 .nav-link {
@@ -66,6 +67,10 @@ p {
 .nav-link:last-child {
   margin-right: 0;
 }
+.nav-link-correct {
+  margin-right: 0;
+  padding-left: 20px;
+}
 
 .main-body {
   max-width: 900px;
@@ -76,7 +81,7 @@ p {
   display: inline-block;
   width: calc(46% - 3px);
   margin-right: 4%;
-  padding-bottom: 135px;
+  padding-bottom: 71px;
 }
 
 .con-block:last-child {
@@ -84,24 +89,21 @@ p {
 }
 
 .load-button {
-  margin-top: -55px;
-}
-.load-button button {
   margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
-/* .Lifestyle {
-  font-size: 14px;
-  font-family: "Ubuntu",sans-serif;
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
+.load-button button {
+  height: 60px;
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(98, 98, 98);
+  border-style: solid;
+  padding: 18px 32px 18px 32px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
   line-height: 1.2;
-  
-} */
-/* .More_than_just_a_music_festival_ {
-  font-size: 30px;
-  font-family: "Playfair Display";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  
-} */
+  font-weight: 400;
+  color: #666666;
+}
