@@ -22,7 +22,7 @@ a {
 
 h2 {
   font-size: 30px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: rgb(98, 98, 98);
   line-height: 1.2;
   font-weight: 400;
@@ -31,7 +31,7 @@ h2 {
 
 h3 {
   font-size: 14px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", Cambria, Cochin, Georgia, sans-serif;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
@@ -41,13 +41,14 @@ h3 {
 
 p {
   font-size: 14px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: rgb(98, 98, 98);
   line-height: 1.714;
   font-weight: 400;
 }
 
 img {
+  display: block;
   padding-bottom: 31px;
 }
 
@@ -57,7 +58,7 @@ img {
   margin-right: 2%;
   margin-bottom: 105px;
   padding-top: 75px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-size: 19px;
   line-height: 1.2;
   font-weight: lighter;
@@ -89,19 +90,18 @@ img {
 }
 
 .load-button {
-  margin: 0 auto;
   text-align: center;
   padding-bottom: 70px;
 }
 
 .load-button button {
-  height: 60px;
+  margin: 0 auto;
   background-color: white;
   border-width: 1px;
   border-color: rgb(98, 98, 98);
   border-style: solid;
   padding: 18px 32px 18px 32px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 400;
