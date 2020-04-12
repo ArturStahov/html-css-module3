@@ -1,0 +1,107 @@
+@font-face {
+  font-family: PlayFair Display;
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet');
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap");
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.nav-body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  font-weight: 400;
+}
+
+.nav-link {
+  display: inline-block;
+  width: calc(23% - 3px);
+  margin-right: 2%;
+  margin-bottom: 105px;
+  padding-top: 75px;
+  font-family: "Playfair Display", serif;
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: lighter;
+  color: #666666;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.main-body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.con-block {
+  display: inline-block;
+  width: calc(46% - 3px);
+  margin-right: 4%;
+  padding-bottom: 135px;
+}
+
+.con-block:last-child {
+  margin-right: 0;
+}
+
+.load-button {
+  margin-top: -55px;
+}
+.load-button button {
+  margin: 0 auto;
+}
+
+/* .Lifestyle {
+  font-size: 14px;
+  font-family: "Ubuntu",sans-serif;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  
+} */
+/* .More_than_just_a_music_festival_ {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  
+} */
