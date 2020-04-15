@@ -9,16 +9,7 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  padding-left: 150px;
-  padding-right: 150px;
   background-color: white;
-}
-
-main {
-  width: 900px;
-  margin: 0 auto;
-  font-size: 0;
 }
 
 h2 {
@@ -60,15 +51,17 @@ a {
   color: #666666;
 }
 
-.hover-effect a:focus,
-.hover-effect a:hover {
-  color: blue;
-}
-
 nav {
   text-align: center;
-  margin-bottom: 100px;
+  text-transform: uppercase;
+  padding-bottom: 100px;
   padding-top: 65px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+
   font-size: 0;
 }
 
@@ -84,6 +77,11 @@ nav {
 
 .nav-link:last-child {
   margin-right: 0;
+}
+
+.nav-link a:focus,
+.nav-link a:hover {
+  color: blue;
 }
 
 .con-block {
